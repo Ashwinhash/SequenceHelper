@@ -1,0 +1,11 @@
+POST http://localhost:4004/odata/v4/my/Product
+Content-Type: application/json;IEEE754Compatible=true
+
+{
+    "Name": "Tuna",
+    "Description": "Raw Tuna",
+    "ReleaseDate": "1992-01-01T00:00:00Z",
+    "DiscontinuedDate": null,
+    "Rating": 4,
+    "Price": "2.5"
+}
