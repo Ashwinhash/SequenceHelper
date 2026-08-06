@@ -12,3 +12,12 @@ entity Products{
     Price:Decimal(13,2)
 
 }
+
+entity Department{
+    key ID:Integer;
+    Name:String;
+    Description:String;
+    Location:String;
+    ManagerName:String;
+    CreatedDate:DateTime
+}
